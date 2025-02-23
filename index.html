@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+      <script>
+
+             
+            var ssrc = 'https://api.melarix.com/course/videosaviour1'
+
+
+            vd = `<div>
+            <video autoplay controls className="vp" controlsList='nodownload' style="max-width:100%">
+      <source src="${ssrc}" />
+
+</video></div>
+            `
+
+            var z = document.createElement('div'); // is a node
+            z.innerHTML = vd;
+            document.body.appendChild(z)
+      </script>
+</body>
+
+</html>
+<!-- <video autoplay controls className="vp" controlsList='nodownload' style="max-width:100%">
+      <source src="./assets/Course/005-2/video/4_Installing-Packages_Bitcoin-Wallet-Development_005-2.mp4" />
+
+</video> -->
